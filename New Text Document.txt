@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramdhan Special Discount</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Ramdhan Special Discount</h1>
+    </header>
+
+    <!-- Body with 16 Pictures -->
+    <main>
+        <div class="gallery">
+            <!-- Pic 1 -->
+            <div class="card">
+                <img src="PIC 1.jpeg" alt="PIC 1">
+                <p class="description">Men`s Jubbas</p>
+                <p class="price">Price: MK/- 100</p>
+                <p class="discount">Discount: 20% off</p>
+                <p class="size">Size: M</p>
+            </div>
+            <!-- Pic 2 -->
+            <div class="card">
+                <img src="PIC 2.jpeg" alt="PIC 2">
+                <p class="description">Description for Pic 2</p>
+                <p class="price">Price: MK/- 110</p>
+                <p class="discount">Discount: 15% off</p>
+                <p class="size">Size: L</p>
+            </div>
+            <!-- Pic 3 -->
+            <div class="card">
+                <img src="PIC 3.jpeg" alt="PIC 3">
+                <p class="description">Description for Pic 3</p>
+                <p class="price">Price: MK/- 120</p>
+                <p class="discount">Discount: 10% off</p>
+                <p class="size">Size: XL</p>
+            </div>
+            <!-- Pic 4 -->
+            <div class="card">
+                <img src="PIC 4.jpeg" alt="PIC 4">
+                <p class="description">Description for Pic 4</p>
+                <p class="price">Price: MK/- 130</p>
+                <p class="discount">Discount: 25% off</p>
+                <p class="size">Size: M</p>
+            </div>
+            <!-- Pic 5 -->
+            <div class="card">
+                <img src="PIC 5.jpeg" alt="PIC 5">
+                <p class="description">Description for Pic 5</p>
+                <p class="price">Price: MK/- 140</p>
+                <p class="discount">Discount: 30% off</p>
+                <p class="size">Size: L</p>
+            </div>
+            <!-- Pic 6 -->
+            <div class="card">
+                <img src="PIC 6.jpeg" alt="PIC 6">
+                <p class="description">Description for Pic 6</p>
+                <p class="price">Price: MK/- 150</p>
+                <p class="discount">Discount: 20% off</p>
+                <p class="size">Size: XL</p>
+            </div>
+            <!-- Pic 7 -->
+            <div class="card">
+                <img src="PIC 7.jpeg" alt="PIC 7">
+                <p class="description">Description for Pic 7</p>
+                <p class="price">Price: MK/- 160</p>
+                <p class="discount">Discount: 15% off</p>
+                <p class="size">Size: M</p>
+            </div>
+            <!-- Pic 8 -->
+            <div class="card">
+                <img src="PIC 8.jpeg" alt="PIC 8">
+                <p class="description">Description for Pic 8</p>
+                <p class="price">Price: MK/- 170</p>
+                <p class="discount">Discount: 10% off</p>
+                <p class="size">Size: L</p>
+            </div>
+            <!-- Pic 9 -->
+            <div class="card">
+                <img src="PIC 9.jpeg" alt="PIC 9">
+                <p class="description">Description for Pic 9</p>
+                <p class="price">Price: MK/- 180</p>
+                <p class="discount">Discount: 25% off</p>
+                <p class="size">Size: XL</p>
+            </div>
+            <!-- Pic 10 -->
+            <div class="card">
+                <img src="PIC 10.jpeg" alt="PIC 10">
+                <p class="description">Description for Pic 10</p>
+                <p class="price">Price: MK/- 190</p>
+                <p class="discount">Discount: 30% off</p>
+                <p class="size">Size: M</p>
+            </div>
+            <!-- Pic 11 -->
+            <div class="card">
+                <img src="PIC 11.jpeg" alt="PIC 11">
+                <p class="description">Description for Pic 11</p>
+                <p class="price">Price: MK/- 200</p>
+                <p class="discount">Discount: 20% off</p>
+                <p class="size">Size: L</p>
+            </div>
+            <!-- Pic 12 -->
+            <div class="card">
+                <img src="PIC 12.jpeg" alt="PIC 12">
+                <p class="description">Description for Pic 12</p>
+                <p class="price">Price: MK/- 210</p>
+                <p class="discount">Discount: 15% off</p>
+                <p class="size">Size: XL</p>
+            </div>
+            <!-- Pic 13 -->
+            <div class="card">
+                <img src="PIC 13.jpeg" alt="PIC 13">
+                <p class="description">Description for Pic 13</p>
+                <p class="price">Price: MK/- 220</p>
+                <p class="discount">Discount: 10% off</p>
+                <p class="size">Size: M</p>
+            </div>
+            <!-- Pic 14 -->
+            <div class="card">
+                <img src="PIC 14.jpeg" alt="PIC 14">
+                <p class="description">Description for Pic 14</p>
+                <p class="price">Price: MK/- 230</p>
+                <p class="discount">Discount: 25% off</p>
+                <p class="size">Size: L</p>
+            </div>
+            <!-- Pic 15 -->
+            <div class="card">
+                <img src="PIC 15.jpeg" alt="PIC 15">
+                <p class="description">Description for Pic 15</p>
+                <p class="price">Price: MK/- 240</p>
+                <p class="discount">Discount: 30% off</p>
+                <p class="size">Size: XL</p>
+            </div>
+            <!-- Pic 16 -->
+            <div class="card">
+                <img src="PIC 16.jpeg" alt="PIC 16">
+                <p class="description">Description for Pic 16</p>
+                <p class="price">Price: MK/- 250</p>
+                <p class="discount">Discount: 20% off</p>
+                <p class="size">Size: M</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <p>Mobile No: +265 000000000</p>
+            <p>Address: XYZ</p>
+            <p>Email: XYZ</p>
+        </div>
+        <div class="footer-right">
+            <img src="motivus-logo.png" alt="Motivus Logo">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
