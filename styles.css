@@ -3,77 +3,106 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    box-sizing: border-box;
 }
 
-/* Header */
 header {
-    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
-    padding: 20px;
-    text-align: center;
+    background-color: #5C7285;
     color: white;
-    font-size: 24px;
-}
-
-/* Gallery */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+ font-size: 30px;
     padding: 20px;
-}
-
-.card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif; /* Example of a bold and elegant font */
+    font-weight: bold; /* Ensure the font is bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
 }
 
-.card img {
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-.description {
-    font-size: 16px;
-    color: #555;
-}
-
-.price {
-    font-size: 18px;
-    color: #e74c3c;
-    font-weight: bold;
-}
-
-.discount {
-    font-size: 14px;
-    color: #27ae60;
-}
-
-.size {
-    font-size: 12px;
-    color: #3498db;
-}
-
-/* Footer */
 footer {
-    background: linear-gradient(90deg, #a1c4fd, #c2e9fb);
+    background-color: #333;
+    color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
 }
 
-.footer-left p {
+footer .footer-left p {
     margin: 5px 0;
 }
 
-.footer-right img {
+footer .footer-right img {
     max-width: 100px;
     height: auto;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card p {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Styling for Description, Price, Discount, and Size */
+.card .description {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card .price {
+    font-size: 22px;
+    color: #4CAF50; /* Green color for price */
+    font-weight: bold;
+}
+
+.card .discount {
+    font-size: 16px;
+    color: white; /* White font color */
+    font-weight: bold;
+    background-color: #E91E63; /* Pink color for background */
+    border-radius: 5px; /* 5px border radius */
+    padding: 5px 10px; /* Add some padding for better appearance */
+    display: inline-block; /* Ensure the background only covers the text */
+    margin: 5px 0; /* Add some margin for spacing */
+}
+
+.card .size {
+    font-size: 14px;
+    color: #2196F3; /* Blue color for size */
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%;
+    }
 }
