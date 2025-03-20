@@ -20,7 +20,7 @@ header {
 footer {
     background-color: #333;
     color: white;
-    padding: 14px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +66,7 @@ footer .footer-right img {
 
 /* Styling for Description, Price, Discount, and Size */
 .card .description {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     color: #131010;
 }
